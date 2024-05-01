@@ -1,0 +1,47 @@
+.nav_container {
+display: grid;
+place-content: center;
+
+}
+
+.nav_top_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+    max-width: 1440px;
+}
+
+.nav_logo img {
+    width: 110px;
+}
+
+.nav_button button {
+    border: 1px solid var(--Pink);
+    background-color: white;
+    color: var(--Pink);
+    border-radius: 50px;
+    padding-inline: 1.1rem;
+    padding-block: .4rem;
+}
+
+.nav_main {
+    display: flex;
+    place-content: center;
+}
+
+.nav_main_wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-inline: 2rem;
+    max-width: 1240px;
+}
+
+.nav_text {
+    max-width: 600px;
+}
+
+.nav_text_container {
+   display: flex;
+   place-content: center;
+}
